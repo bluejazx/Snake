@@ -5,6 +5,7 @@
 #include <windows.h>
 #include <vector>
 
+
 //wraps all global variable in a struct to be used throught entire program
 struct Global
 {
@@ -23,9 +24,8 @@ struct Global
     //Tracks the playes score
     static int playerScore;
 
-    //Tracks the cordinates of the snakes tail
-    static std::vector<int> snakeTailCords;
-
+    //Array that tracks the cordinates of the snakes tail
+    static int snakeTailX[100], snakeTailY[100]; 
     //Tracks the snakes tail legnth
     static int snakeTailLen;
 

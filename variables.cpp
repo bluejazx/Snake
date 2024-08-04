@@ -15,7 +15,7 @@ int Global::fruitCordY;
 
 int Global::playerScore;
 
-std::vector<int> Global::snakeTailCords{ 100, 100 };
+int Global::snakeTailX[100], Global::snakeTailY[100];
 
 int Global::snakeTailLen;
 
